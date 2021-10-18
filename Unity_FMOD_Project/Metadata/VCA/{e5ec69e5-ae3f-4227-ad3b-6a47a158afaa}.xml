@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerVCA" id="{e5ec69e5-ae3f-4227-ad3b-6a47a158afaa}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
+		<property name="name">
+			<value>master_vol_vca</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{672e7581-e94b-4e2c-824b-269c5f9119f9}</destination>
+		</relationship>
+	</object>
+</objects>

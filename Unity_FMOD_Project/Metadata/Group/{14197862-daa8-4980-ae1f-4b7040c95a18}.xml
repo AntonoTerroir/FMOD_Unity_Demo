@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{14197862-daa8-4980-ae1f-4b7040c95a18}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
+		<property name="name">
+			<value>MIX_ST</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b0334e3f-041c-4850-a697-efad68f31c4e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f2a291c3-9f8e-4d17-9ee1-01bf2e185a90}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{76ccb8a5-6491-44fe-8689-0b8a7b0c98c2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b0334e3f-041c-4850-a697-efad68f31c4e}">
+		<relationship name="effects">
+			<destination>{2e3374b9-0b87-43f0-9256-441ccc4bce67}</destination>
+			<destination>{a7b719d0-9882-4eab-8262-417facea8587}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f2a291c3-9f8e-4d17-9ee1-01bf2e185a90}" />
+	<object class="ThreeEQEffect" id="{2e3374b9-0b87-43f0-9256-441ccc4bce67}" />
+	<object class="MixerBusFader" id="{a7b719d0-9882-4eab-8262-417facea8587}" />
+</objects>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{0f02b8de-1b3d-4958-88fb-f18c8130ee05}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>AMB</value>
+		</property>
+		<relationship name="masters">
+			<destination>{e1ec13f5-999f-40e6-a3c1-e8bcece038c8}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{109a1f38-399f-44c4-b79f-8df89c2ff8fe}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8efc1698-f6fe-4d37-a92f-b23f9b53283b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{14197862-daa8-4980-ae1f-4b7040c95a18}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{109a1f38-399f-44c4-b79f-8df89c2ff8fe}">
+		<relationship name="effects">
+			<destination>{cad2fd15-ae58-4da2-af8d-08c5875fceb3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8efc1698-f6fe-4d37-a92f-b23f9b53283b}" />
+	<object class="MixerBusFader" id="{cad2fd15-ae58-4da2-af8d-08c5875fceb3}" />
+</objects>

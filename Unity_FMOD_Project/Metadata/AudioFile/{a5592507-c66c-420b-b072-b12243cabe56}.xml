@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a5592507-c66c-420b-b072-b12243cabe56}">
+		<property name="assetPath">
+			<value>mus_stories_main_theme_piano_loop_60bpm_4-4_16.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>64</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8e8f9757-d51b-47b6-8127-76aee14abacc}</destination>
+		</relationship>
+	</object>
+</objects>
